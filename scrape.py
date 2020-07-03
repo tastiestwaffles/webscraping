@@ -8,5 +8,5 @@ def getPrice(productUrl):
   elems = soup.select('SOME CSS HERE')
   return elems0].text.strip()
   
- price = getPrice('http://SOME SITE HERE')
+ price = getPrice('http://SOME SITE HERE') #probably class span or something
  print('The price is ' + price)
